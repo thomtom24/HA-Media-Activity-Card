@@ -2,6 +2,12 @@
 
 Local analytics for [Media Activity Tracker](https://github.com/thomtom24/HA-Media-Activity-Tracker), one card per media player.
 
+## Preview
+
+![Illustrative card preview using example data](docs/preview.svg)
+
+Design illustration; not a screenshot of a live Home Assistant installation.
+
 ## Install
 Install the tracker first. In HACS add this repository as a Dashboard custom repository and install. Reload the browser and add Media Activity Card through the dashboard UI; select the tracker’s Tracking status sensor. For manual installation copy ha-media-activity-card.js to config/www and register /local/ha-media-activity-card.js as a JavaScript module resource.
 
