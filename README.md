@@ -6,7 +6,7 @@ Local analytics for [Media Activity Tracker](https://github.com/thomtom24/HA-Med
 Install the tracker first. In HACS add this repository as a Dashboard custom repository and install. Reload the browser and add Media Activity Card through the dashboard UI; select the tracker’s Tracking status sensor. For manual installation copy ha-media-activity-card.js to config/www and register /local/ha-media-activity-card.js as a JavaScript module resource.
 
 ## Features
-Live state and app, current session, today/week/month/year views, comparison with the previous period, app breakdown, stacked daily charts, rolling 30/90/365-day trends, weekday heatmap, insights, configurable sections, optional daily activity target, full statistics dialog and CSV export (up to ten years). Uses native theme variables and responds to card width. Data comes from the local authenticated tracker API. No analytics or external assets.
+Live state and app, current session, today/week/month/year views, comparison with the previous period, app breakdown, stacked daily charts for the last seven days and selected week/month, rolling 30/90/365-day trends, weekday and time-of-day heatmaps, insights, configurable sections, optional daily activity target, full statistics dialog and CSV export (up to ten years). Uses native theme variables and responds to card width. Data comes from the local authenticated tracker API. No analytics or external assets.
 
 ## Example
 ```yaml
